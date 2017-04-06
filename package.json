@@ -1,0 +1,31 @@
+{
+  "name": "ocamlbuild-bs",
+  "version": "0.1.0",
+  "description": "ocamlbuild plugin to build OCaml code to JS with BuckleScript",
+  "esy": {
+    "build": [
+      "make build install"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreypopp/ocamlbuild-bs.git"
+  },
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/ocamlbuild-bs/issues"
+  },
+  "homepage": "https://github.com/andreypopp/ocamlbuild-bs#readme",
+  "peerDependencies": {
+    "ocaml": "esy-ocaml/ocaml#esy"
+  },
+  "devDependencies": {
+    "ocaml": "esy-ocaml/ocaml#esy"
+  },
+  "dependencies": {
+    "@opam-alpha/merlin": "^2.5.3",
+    "@opam-alpha/ocamlfind": "^1.7.1",
+    "@opam-alpha/ocp-indent": "^1.5.3"
+  }
+}

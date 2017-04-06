@@ -1,0 +1,5 @@
+description = "ocamlbuild plugin to build OCaml code to JS with BuckleScript"
+version = "0.1.0"
+requires = "ocamlbuild"
+archive(byte) = "Ocamlbuild_bs.cma"
+archive(native) = "Ocamlbuild_bs.cmxa"
