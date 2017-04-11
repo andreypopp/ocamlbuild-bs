@@ -112,6 +112,9 @@
     opam-installer-bin esy-ocaml/opam-installer-bin
     substs esy-ocaml/substs
 
+"bs-platform@file:../bucklescript":
+  version "1.6.1"
+
 ocaml@esy-ocaml/ocaml#esy:
   version "4.2.3"
   resolved "https://codeload.github.com/esy-ocaml/ocaml/tar.gz/88ae14f699795f2e4f6002156e24d77278cb8797"

@@ -29,7 +29,7 @@ OCB = ocamlbuild ${OCB_FLAGS}
 
 all: build
 build: lib
-install: install-lib
+install: install-lib install-bin
 
 #
 # Build targets
@@ -42,6 +42,10 @@ lib:
 #
 # Installation
 #
+
+install-bin:
+	@cp bin/bsfind $(cur__bin)/bsfind
+	@chmod +x $(cur__bin)/bsfind
 
 install-lib: lib
 	@ocamlfind install $(cur__name) lib/META $(cur__target_dir)/lib/Ocamlbuild_bs.*

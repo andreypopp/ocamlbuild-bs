@@ -1,0 +1,3 @@
+#!/bin/bash
+
+OCAMLLIB="$bs_platform__lib" OCAMLFIND_COMMANDS="ocamlc=bsc.exe ocamldep=bsdep.exe" ocamlfind $*

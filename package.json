@@ -24,6 +24,7 @@
     "ocaml": "esy-ocaml/ocaml#esy"
   },
   "dependencies": {
+    "bs-platform": "file:../bucklescript",
     "@opam-alpha/merlin": "^2.5.3",
     "@opam-alpha/ocamlfind": "^1.7.1",
     "@opam-alpha/ocp-indent": "^1.5.3"
